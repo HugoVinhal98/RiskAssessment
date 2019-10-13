@@ -1,0 +1,7 @@
+Necessidade,bombeiros/distancia minima,bombeiros/tempo minimo,policia/tempo minimo,hospital/quantidade,floresta/area
+incendio,(n/a),obrigatorio,(n/a),facultativo,facultativo
+inundacao,obrigatorio,(n/a),obrigatorio,obrigatorio,obrigatorio
+sismo,(n/a),facultativo,facultativo,facultativo,facultativo
+tempestade,obrigatorio,(n/a),facultativo,obrigatorio,obrigatorio
+tsunami,facultativo,obrigatorio,(n/a),obrigatorio,(n/a)
+infestacao,(n/a),facultativo,obrigatorio,(n/a),facultativo

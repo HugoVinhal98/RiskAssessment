@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<xsd:element name="ComparacaoAR" type="TComparacaoAR"/>
+	
+	<xsd:complexType name="TComparacaoAR">
+        <xsd:sequence>
+			<xsd:element name="Pedido" type="TPedido" maxOccurs="unbounded"/>          			
+            <xsd:element name="MatrizRisco" type="TMatrizRisco" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+	
+	<xsd:complexType name="TPedido">    
+        <xsd:sequence>
+            <xsd:element name="Local" type="xsd:string" maxOccurs="unbounded"/>		
+            <xsd:element name= "ListaCoberturas" type="TListaCobertura" />
+        </xsd:sequence>
+        <xsd:attribute name="idPedido" type="xsd:string" use="required"/>
+    </xsd:complexType>
+	
+	<xsd:complexType name="TListaCobertura">
+        <xsd:sequence>
+            <xsd:element name="Cobertura" type="xsd:string" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+	
+	<xsd:complexType name="TMatrizRisco">
+        <xsd:sequence>
+            <xsd:element name="ScoreMax" type="xsd:string" maxOccurs="unbounded"/>
+            <xsd:element name="ScoreObtido" type="xsd:string" maxOccurs="unbounded"/>
+            <xsd:element name="indiceAvaliacaoRisco" type="xsd:string" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attribute name="idMatriz" type="xsd:string" use="required"/>
+    </xsd:complexType>
+	
+	<xsd:complexType name="TObjetoSeguro">
+        <xsd:sequence>
+            <xsd:element name="NomeObjetoSeguro" type="xsd:string" maxOccurs="unbounded"/>
+            <xsd:element name= "ListaCoberturas" type="TListaCobertura" />
+        </xsd:sequence>
+        <xsd:attribute name="idObjetoSeguro" type="xsd:string" use="required"/>
+    </xsd:complexType>
+	
+    
+</xsd:schema>

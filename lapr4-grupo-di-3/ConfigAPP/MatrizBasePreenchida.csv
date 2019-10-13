@@ -1,0 +1,7 @@
+Fatores contribuem cobertura,bombeiros/distancia minima,bombeiros/tempo minimo,policia/tempo minimo,hospital/quantidade,floresta/area
+incendio,nao,sim,nao,sim,sim
+inundacao,sim,nao,sim,sim,sim
+sismo,nao,sim,sim,sim,sim
+tempestade,sim,nao,sim,sim,sim
+tsunami,sim,sim,nao,sim,nao
+infestacao,nao,sim,sim,nao,sim

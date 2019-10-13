@@ -1,0 +1,7 @@
+Contribuicao,bombeiros/distancia minima,bombeiros/tempo minimo,policia/tempo minimo,hospital/quantidade,floresta/area
+incendio,(n/a),positiva,(n/a),positiva,negativa
+inundacao,negativa,(n/a),positiva,positiva,positiva
+sismo,(n/a),positiva,positiva,positiva,negativa
+tempestade,positiva,(n/a),negativa,positiva,positiva
+tsunami,positiva,positiva,(n/a),positiva,(n/a)
+infestacao,(n/a),positiva,negativa,(n/a),negativa

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>$title</title>
+        <style>
+            .collapsible {
+                background-color: #777;
+                color: white;
+                cursor: pointer;
+                padding: 18px;
+                width: 100%;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-size: 15px;
+            }
+
+            .active, .collapsible:hover {
+                background-color: #555;
+            }
+
+            .content {
+                padding: 0 18px;
+                display: none;
+                overflow: hidden;
+                background-color: #f1f1f1;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h2>Detalhes do Pedido de Avaliacao de Risco $pedido</h2>
+
+        <p> 
+            <b>Score Obtido: $scoreObtido</b> 
+        </p>
+
+        <p> 
+            <b>Score Maximo: $scoreMaximo</b> 
+        </p>
+
+        <p> 
+            <b>Indice Avaliacao Risco: $indiceAR</b> 
+        </p>
+
+        <p> 
+            <b>Nome Objeto: $nomeObjeto</b> 
+        </p>
+
+        <button class="collapsible">Lista Coberturas Objeto Seguro:</button>
+        <div class="content">
+            <b>$listaCoberturas</b>
+        </div>
+        
+        <button class="collapsible">Lista de Ocurrencias:</button>
+        <div class="content">
+            <b>$listaOcurrencias</b>
+        </div>
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+            content.style.display = "none";
+            } else {
+            content.style.display = "block";
+            }
+            });
+            }
+        </script>
+
+    </body>
+</html>

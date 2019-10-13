@@ -1,0 +1,24 @@
+{
+"listaSeguros": [
+{   
+  "nome": "Isep",
+  "localizacao": "Rua Dr. Antonio Bernardino", 
+  "coberturas": ["incendio", "sismo"]
+},
+{   
+  "nome": "Casa do Binhale",
+  "localizacao": "Rua Dr. Binhale", 
+  "coberturas": ["tsunami", "tempestade"]
+},
+{   
+  "nome": "Rolo's House",
+  "localizacao": "Rua Dra. Ourico", 
+  "coberturas": ["tempestade", "sismo"]
+}
+{   
+  "nome": "Rolo's House",
+  "localizacao": "Rua Dra. Ourico", 
+  "coberturas": ["tempestade", "sismo"]
+}
+]
+}

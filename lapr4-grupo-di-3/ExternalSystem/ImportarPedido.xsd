@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:element name="Pedido">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="ObjetoSeguro" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="Nome" type="xsd:string"/>
+                            <xsd:element name="NecessidadeAnalista" type="xsd:string"/>
+                            <xsd:element name="ListaCoberturas" type="TListaCoberturas"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:complexType name="TListaCoberturas">
+        <xsd:sequence>
+            <xsd:element name="Cobertura" type="xsd:string" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+</xsd:schema>

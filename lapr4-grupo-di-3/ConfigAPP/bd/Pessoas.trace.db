@@ -1,0 +1,27 @@
+2019-04-03 15:32:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PESSOA" not found; SQL statement:
+SELECT ID FROM PESSOA WHERE ID <> ID [42102-195]
+2019-04-03 16:29:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "ENVOLVENTE" not found; SQL statement:
+SELECT ID FROM ENVOLVENTE WHERE ID <> ID [42102-195]
+2019-04-03 16:29:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "FATORRISCO" not found; SQL statement:
+SELECT ID FROM FATORRISCO WHERE ID <> ID [42102-195]
+2019-04-03 16:29:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "LINHAMATRIZBASE" not found; SQL statement:
+SELECT ID FROM LINHAMATRIZBASE WHERE ID <> ID [42102-195]
+2019-04-03 16:29:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "LINHAMATRIZCARATERIZADA" not found; SQL statement:
+SELECT ID FROM LINHAMATRIZCARATERIZADA WHERE ID <> ID [42102-195]
+2019-04-03 16:29:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "LINHAMATRIZDETALHADA" not found; SQL statement:
+SELECT ID FROM LINHAMATRIZDETALHADA WHERE ID <> ID [42102-195]
+2019-04-03 16:29:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "MATRIZRISCO" not found; SQL statement:
+SELECT ID FROM MATRIZRISCO WHERE ID <> ID [42102-195]
+2019-04-03 16:29:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "METRICA" not found; SQL statement:
+SELECT ID FROM METRICA WHERE ID <> ID [42102-195]
+2019-04-03 16:29:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "COBERTURA" not found; SQL statement:
+SELECT ID FROM COBERTURA WHERE ID <> ID [42102-195]

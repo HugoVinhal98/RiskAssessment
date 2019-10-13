@@ -1,0 +1,7 @@
+Peso,bombeiros/distancia minima,bombeiros/tempo minimo,policia/tempo minimo,hospital/quantidade,floresta/area
+incendio,(n/a),2,(n/a),3,4
+inundacao,5,(n/a),1,3,3
+sismo,(n/a),2,5,3,4
+tempestade,2,(n/a),4,2,3
+tsunami,4,2,(n/a),1,(n/a)
+infestacao,(n/a),5,2,(n/a),4
